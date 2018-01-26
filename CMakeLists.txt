@@ -1,0 +1,13 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+Project(ObjectPool)
+
+# C++11
+set (CMAKE_CXX_STANDARD 11)
+
+# Compile data base
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Add sub directories
+SET(CMAKE_INCLUDE_CURRENT_DIR ON)
+ADD_SUBDIRECTORY(src)
+
